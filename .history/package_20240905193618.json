@@ -1,0 +1,38 @@
+{
+    "name": "kanban-board",
+    "version": "1.0.0",
+    "description": "A Kanban board project built with ReactJS to manage tasks across different stages with drag-and-drop functionality.",
+    "main": "index.js",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-redux": "^8.0.0",
+      "react-scripts": "5.0.1",
+      "redux": "^4.2.0",
+      "redux-devtools-extension": "^2.13.9",
+      "redux-thunk": "^2.4.1"
+    },
+    "devDependencies": {
+      "eslint": "^8.0.0",
+      "eslint-config-react-app": "^7.0.0"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+  

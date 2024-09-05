@@ -1,0 +1,50 @@
+{
+    "name": "kanban-board",
+    "version": "1.0.0",
+    "description": "A Kanban board project built with ReactJS to manage tasks across different stages with drag-and-drop functionality.",
+    "main": "index.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.13.3",
+        "@emotion/styled": "^11.13.0",
+        "@mui/material": "^6.0.2",
+        "@reduxjs/toolkit": "^2.2.7",
+        "react": "^18.3.1",
+        "react-beautiful-dnd": "^13.1.1",
+        "react-dnd": "^16.0.1",
+        "react-dnd-html5-backend": "^16.0.1",
+        "react-dom": "^18.3.1",
+        "react-redux": "^8.1.3",
+        "react-scripts": "5.0.1",
+        "redux": "^4.2.1",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-thunk": "^2.4.1",
+        "tailwindcss": "^3.4.10"
+    },
+    "devDependencies": {
+        "@testing-library/react": "^16.0.1",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-config-react-app": "^7.0.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "jest": "^27.5.1",
+        "prettier": "^3.3.3"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
